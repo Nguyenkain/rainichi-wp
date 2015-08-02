@@ -69,6 +69,11 @@ body .navbar {
     color: #ea6c24;
 }
 
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    color: #f1f0f0 !important;
+    background: #353434 !important;
+}
+
 .navbar-nav > li > .dropdown-menu li a:hover, .navbar-nav > li > .dropdown-menu li a:focus {
     color: #f1f0f0 !important;
     background: #353434 !important;

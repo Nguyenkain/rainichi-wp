@@ -361,3 +361,11 @@ require get_template_directory() . '/inc/customizer.php';
 remove_filter( 'the_content', 'wpautop' );
 
 remove_filter( 'the_excerpt', 'wpautop' );
+
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
+
+add_action('wp_enqueue_scripts', 'no_more_jquery');
+function no_more_jquery(){
+	wp_deregister_script('jquery');
+}
