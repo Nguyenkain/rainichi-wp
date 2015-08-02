@@ -20,29 +20,7 @@
 	</div>
 </div>
 <div class="row contact">
-	<form>
-		<div class="col-xs-12 contact-item">
-			<div class="form-group">
-				<label>Họ và tên:</label>
-				<input type="text" class="form-control">
-			</div>
-			<div class="form-group">
-				<label>Email:</label>
-				<input type="text" class="form-control">
-			</div>
-			<div class="form-group">
-				<label>Điện thoại:</label>
-				<input type="text" class="form-control">
-			</div>
-			<div class="form-group">
-				<label>Lời nhắn:</label>
-				<textarea class="form-control" cols="6" rows="6"> </textarea>
-			</div>
-			<div class="submit-btn">
-				<button type="button">GỬI</button>
-			</div>
-		</div>
-	</form>
+	<?php echo do_shortcode('[contact-form-7 id="40" title=""]') ?>
 </div>
 <div class="row sidebar-broch">
 	<a href="#">
