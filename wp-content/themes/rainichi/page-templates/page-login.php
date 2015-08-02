@@ -17,7 +17,7 @@ get_header(); ?>
 				</div>
 				<div class="col-md-9 content">
 					<div class="login-bg">
-						<img class="img-responsive" id="login-bg" src="<?php  ?>img/login-bg.png">
+						<img class="img-responsive" id="login-bg" src="<?php bloginfo('template_url') ?>/img/login-bg.png">
 						<div class="row login-form">
 							<div class="col-xs-5"></div>
 							<div class="col-xs-7 login-area">
