@@ -53,7 +53,7 @@ get_header(); ?>
 						</div>
 
 						<div class="row comment">
-							<textarea class="form-control" placeholder="Ý kiến của bạn"></textarea>
+							<textarea class="form-control" placeholder="�? kiến của bạn"></textarea>
 							<div class="submit-btn">
 								<button type="button">Gửi</button>
 							</div>
@@ -91,7 +91,7 @@ get_header(); ?>
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
-//					comments_template();
+					comments_template();
 				endif;
 
 				// End the loop.
