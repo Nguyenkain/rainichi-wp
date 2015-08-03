@@ -1,20 +1,12 @@
 <?php
 /**
- * The template for displaying archive pages
- *
- * Used to display archive-type pages if nothing more specific matches a query.
- * For example, puts together date-based pages if no date.php file exists.
- *
- * If you'd like to further customize these archive views, you may create a
- * new template file for each one. For example, tag.php (Tag archives),
- * category.php (Category archives), author.php (Author archives), etc.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * Template Name: Archives
  *
  * @package WordPress
  */
 
 get_header(); ?>
+
 	<div class="container common">
 		<!-- Example row of columns -->
 		<div class="row">
@@ -70,7 +62,7 @@ get_header(); ?>
 								</div>
 							</div>
 						</div>
-					<?php
+						<?php
 						// End the loop.
 					endwhile;
 
@@ -117,4 +109,5 @@ get_header(); ?>
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
 
-<?php get_footer(); ?>
+<?php
+get_footer();
