@@ -627,9 +627,10 @@ COMMON
 */
 
 .container.common {
-    padding-left: 12%;
-    padding-right: 12%;
+    /*padding-left: 12%;
+    padding-right: 12%;*/
     margin-top: 20px;
+    width: 900px;
 }
 
 .content .pagination {
