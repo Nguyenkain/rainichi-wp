@@ -30,6 +30,13 @@
 
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="<?php bloginfo( 'template_url' ); ?>/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="<?php bloginfo( 'template_url' ); ?>/js/vendor/bootstrap.min.js"></script>
+	<script src="<?php bloginfo( 'template_url' ); ?>/js/vendor/swiper.jquery.min.js"></script>
+
+	<script src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -67,20 +74,8 @@
 	</nav>
 </div>
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="slides">
-	<div class="slide-wrapper swiper-wrapper">
-		<div class="swiper-slide">
-			<img class="img-responsive" src="<?php bloginfo( 'template_url' ); ?>/img/slide-01.png">
-		</div>
-		<div class="swiper-slide">
-			<img class="img-responsive" src="<?php bloginfo( 'template_url' ); ?>/img/slide-01.png">
-		</div>
-		<div class="swiper-slide">
-			<img class="img-responsive" src="<?php bloginfo( 'template_url' ); ?>/img/slide-01.png">
-		</div>
-	</div>
-	<!-- Add Pagination -->
-	<div class="swiper-pagination"></div>
+<div class="slider">
+	<?php layerslider(1) ?>
 </div>
 
 <div id="background">

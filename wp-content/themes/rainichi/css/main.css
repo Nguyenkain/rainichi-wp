@@ -552,6 +552,9 @@ body .navbar.navbar-default {
 .slides .swiper-pagination-bullet-active {
     background: #fff;
 }
+.slider {
+    margin-bottom: 20px;
+}
 
 /**
 ================
