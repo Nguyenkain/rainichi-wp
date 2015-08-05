@@ -339,6 +339,11 @@ body .navbar {
     /*width: 300px;*/
 }
 
+.contact-item input[type="email"], .contact-item input[type="tel"] {
+    background-color: #cecdcd;
+    border-radius: 0;
+}
+
 .container .row.contact .contact-item label {
     color: #5e5e5e;
     font-weight: normal;
