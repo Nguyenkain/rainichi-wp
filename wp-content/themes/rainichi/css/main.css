@@ -135,6 +135,10 @@ body .navbar {
     text-align: left;
 }
 
+.container .row.introduce-2-area .information .information-item a.more-link {
+    display: none;
+}
+
 .container .row.introduce-2-area .information .information-item-header span {
     color: #ffc543;
     padding-left: 10px;
