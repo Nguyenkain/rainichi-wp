@@ -201,6 +201,7 @@ body .navbar {
 .container .row .introduce-2 .introduce-content {
     margin: 2% 0;
     padding: 0 0 0 6%;
+    text-align: justify;
 }
 
 .container .row .introduce-2 img {
@@ -251,9 +252,10 @@ body .navbar {
 
 .container .row .information {
     background: url('../img/info-bg.png') no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 106%;
     min-height: 235px;
     position: relative;
+    background-position: 0 -6px;
 }
 
 .container .row .course .day {
