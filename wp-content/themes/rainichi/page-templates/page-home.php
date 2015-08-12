@@ -151,13 +151,13 @@ get_header(); ?>
 									<span><?php the_title() ?></span>
 								</div>
 								<div class="information-item-body">
-									<span><?php the_excerpt() ?></span>
+									<span><?php echo get_the_excerpt() ?></span>
 								</div>
 								<div class="information-item-footer">
 									<a href="<?php echo get_the_permalink() ?>"><span>Đọc thêm ></span></a>
 								</div>
 							</div>
-							<?php if ( $i % 2 == 1 ) { ?>
+							<?php if ( $i % 2 == 1 || $i + 1 == count($myposts) ) { ?>
 								</div>
 							<?php } ?>
 						<?php endforeach;
